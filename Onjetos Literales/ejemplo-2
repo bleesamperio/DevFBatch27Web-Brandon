@@ -1,0 +1,18 @@
+const MicuentaDeAlumno = {
+
+    // idealmente, si le pones "" o '' a un atributo, para mantener tu base de codigo/codebase uniforme, tienes que añadiselas a los demas atributos.
+
+    "id": "Al0171389DevF",
+    "nombre completo": "Brandon", //Contenido con espacios
+    "Materias": ["HTML","CSS","JS"],
+    "MostrarGrupo"(){
+        return `El alumno ${this["nombre completo"]}, se encuentra cursando la materia ${this.Materia[3]}`;
+    }
+};
+
+// Un "typo", es un error de ortografia dentro del codigo. 
+
+//Tambien podemos acceder a los valores de nuestros objetos con la notacion de de corchetes cuadrados [] (Square Brackets).
+
+console.log(MicuentaDeAlumno["nombre completo"]);
+console.log(MicuentaDeAlumno["id"]);
